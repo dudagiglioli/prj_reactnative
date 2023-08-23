@@ -9,8 +9,8 @@ export default function Carrinho() {
     <>
       <Image source={topo} style={estilos.topo} />
       <Text style={estilos.titulo}>Detalhes do Carrinho</Text>
-      <View>
-        <Text>Carrinho de Compras</Text>
+      <View style={estilos.carrinho}>
+        <Text style={estilos.nome}>Carrinho de Compras</Text>
         <Text>Fazenda ETEC Cidade do Livro</Text>
         <Text>Carrinho de Compras</Text>
         <Text>
@@ -38,4 +38,14 @@ const estilos = StyleSheet.create({
     padding: 16,
     fontFamily: "MontserratBold"
   },
+  carrinho:{
+paddingVertical: 8,
+paddingHorizontal: 16
+  },
+  nome:{
+      fontSize: 26,
+      lineHeight: 42,
+      color: "#464646",
+      fontFamily:"MontserratBold"
+  }
 });
