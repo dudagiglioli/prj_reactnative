@@ -1,6 +1,5 @@
 import React from 'react';
-import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, StyleSheet, Text } from 'react-native';
+import { SafeAreaView, StatusBar} from 'react-native';
 import { useFonts,
 Montserrat_400Regular,
 Montserrat_400Regular_Italic,

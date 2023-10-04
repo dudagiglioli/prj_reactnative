@@ -1,5 +1,5 @@
 import React from "react";
-import { Dimensions, Image, StyleSheet, Text, View } from "react-native";
+import { Dimensions, StyleSheet, View } from "react-native";
 import Topo from './components/Topo';
 import Detalhe from "./components/Detalhe";
 import carrinho from "../../mocks/carrinho";
@@ -72,5 +72,6 @@ const estilos = StyleSheet.create({
     fontFamily: "MontserratRegular",
     color: "#2A9F85",
     marginTop: 8
-  }
+  },
+
 });
